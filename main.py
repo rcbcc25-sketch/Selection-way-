@@ -371,8 +371,8 @@ def build_txt_for_course(course_id, course_title=None): #𓍯𝙎𝙪𝙟𝙖�
         f"📊 Export Summary:\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🔗 Total Links: {len(lines)}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🎬 Videos: {total_videos}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        f"📄 PDFs: {total_pdfs}"\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        f"🦅 by [𓍯✮⃝mrचौहान✮⃝🚩⚝](tg://openmessage?user_id=8136984784)" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        f"📄 PDFs: {total_pdfs}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        f"🦅 by : {[𓍯✮⃝mrचौहान✮⃝🚩⚝](tg://openmessage?user_id=8136984784)}" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     txt_content += "\n\n" + summary_text #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
