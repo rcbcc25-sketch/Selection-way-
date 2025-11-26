@@ -402,7 +402,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines = [ #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━━━", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        " *WELCOME TO [𓍯✮⃝mrचौहान✮⃝🚩⚝ bots](tg://openmessage?user_id=8136984784)* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        " *WELCOME TO "[𓍯✮⃝mrचौहान✮⃝🚩⚝ bots](tg://openmessage?user_id=8136984784)"* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         " *Select your batch from below:* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ] #𓍯𝙎𝙪𝙟𝙖𝙡⚝
@@ -416,7 +416,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines.append("\n✨ Send the *Batch ID* to continue.") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("💡 Tip: Copy the Batch ID above to avoid mistakes!") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-    msg_lines.append("[CHENAL](tg://openmessage?user_id=-5031622787)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+    msg_lines.append("[JiON CHENAL](https://t.me/+DOEDdJkToU04Njk1)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("━━━━━━━━━━━━━━━━━━━") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     bot.send_message(chat_id, "\n".join(msg_lines), parse_mode="Markdown") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
