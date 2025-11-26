@@ -371,7 +371,8 @@ def build_txt_for_course(course_id, course_title=None): #𓍯𝙎𝙪𝙟𝙖�
         f"📊 Export Summary:\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🔗 Total Links: {len(lines)}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🎬 Videos: {total_videos}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        f"📄 PDFs: {total_pdfs}" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        f"📄 PDFs: {total_pdfs}"\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        f"🦅 by [𓍯✮⃝mrचौहान✮⃝🚩⚝](tg://openmessage?user_id=8136984784)" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     txt_content += "\n\n" + summary_text #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
@@ -402,7 +403,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines = [ #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━━━", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        " *WELCOME TO YOUR COURSE HUB!* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        " *WELCOME TO [𓍯✮⃝mrचौहान✮⃝🚩⚝ bots](tg://openmessage?user_id=8136984784)* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         " *Select your batch from below:* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ] #𓍯𝙎𝙪𝙟𝙖𝙡⚝
@@ -416,6 +417,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines.append("\n✨ Send the *Batch ID* to continue.") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("💡 Tip: Copy the Batch ID above to avoid mistakes!") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+    msg_lines.append("[CHENAL](tg://openmessage?user_id=-5031622787)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("━━━━━━━━━━━━━━━━━━━") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     bot.send_message(chat_id, "\n".join(msg_lines), parse_mode="Markdown") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
@@ -447,7 +449,7 @@ def handle_course_id(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     tmp_path = None #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     try: #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         safe_title = re.sub(r"[^\w\s-]", "", course_title).strip().replace(" ", "_") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        tmp_file_name = f"𓍯चौहान⚝{safe_title}.txt" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        tmp_file_name = f"𓍯✮⃝𝕮𝖍o𝖚𝖍𝖆𝖓{safe_title}.txt" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         tmp_path = os.path.join(tempfile.gettempdir(), tmp_file_name) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         with open(tmp_path, "w", encoding="utf-8") as tf: #𓍯𝙎𝙪𝙟𝙖𝙡⚝
             tf.write(txt) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
