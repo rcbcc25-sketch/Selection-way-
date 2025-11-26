@@ -447,7 +447,7 @@ def handle_course_id(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     tmp_path = None #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     try: #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         safe_title = re.sub(r"[^\w\s-]", "", course_title).strip().replace(" ", "_") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        tmp_file_name = f"𓍯𝙎𝙪𝙟𝙖𝙡⚝{safe_title}.txt" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        tmp_file_name = f"𓍯चौहान⚝{safe_title}.txt" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         tmp_path = os.path.join(tempfile.gettempdir(), tmp_file_name) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         with open(tmp_path, "w", encoding="utf-8") as tf: #𓍯𝙎𝙪𝙟𝙖𝙡⚝
             tf.write(txt) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
