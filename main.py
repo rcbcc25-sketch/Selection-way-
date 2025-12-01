@@ -417,7 +417,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines.append("\n✨ Send the *Batch ID* to continue.") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("💡 Tip: Copy the Batch ID above to avoid mistakes!") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-    msg_lines.append("[JiON CHENAL](https://t.me/+wXpLGS_eVWNhN2Vl)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+    msg_lines.append("[JiON CHENAL](https://t.me/+xhH4HjZavEdiODNl)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("━━━━━━━━━━━━━━━━━━━") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     bot.send_message(chat_id, "\n".join(msg_lines), parse_mode="Markdown") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
