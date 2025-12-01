@@ -371,7 +371,8 @@ def build_txt_for_course(course_id, course_title=None): #𓍯𝙎𝙪𝙟𝙖�
         f"📊 Export Summary:\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🔗 Total Links: {len(lines)}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         f"🎬 Videos: {total_videos}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        f"📄 PDFs: {total_pdfs}\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        f"📄 PDFs: {total_pdfs}\n" #𓍯𝙎𝙪𝙟𝙖𝙡
+        f"🦅 Owner:@Chouhan143_bot\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ) #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     txt_content += "\n\n" + summary_text #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
@@ -402,7 +403,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines = [ #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━━━", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-        " *WELCOME TO 𓍯✮⃝mrचौहान✮⃝🚩⚝ bots* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+        " *WELCOME TO 𓍯✮⃝mrचौहान✮⃝🚩⚝ bots connect - @Chouhan143_bot * ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         " *Select your batch from below:* ", #𓍯𝙎𝙪𝙟𝙖𝙡⚝
         "━━━━━━━━━━━━━━━━━━━━━━\n" #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     ] #𓍯𝙎𝙪𝙟𝙖𝙡⚝
@@ -416,7 +417,7 @@ def handle_start(message): #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     msg_lines.append("\n✨ Send the *Batch ID* to continue.") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("💡 Tip: Copy the Batch ID above to avoid mistakes!") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
-    msg_lines.append("[JiON CHENAL](https://t.me/+DOEDdJkToU04Njk1)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
+    msg_lines.append("[JiON CHENAL](https://t.me/+wXpLGS_eVWNhN2Vl)") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
     msg_lines.append("━━━━━━━━━━━━━━━━━━━") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
 
     bot.send_message(chat_id, "\n".join(msg_lines), parse_mode="Markdown") #𓍯𝙎𝙪𝙟𝙖𝙡⚝
